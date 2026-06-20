@@ -1,0 +1,22 @@
+[
+  {
+    "name": "KumoManga",
+    "pkg": "eu.kanade.tachiyomi.extension.th.kumomanga",
+    "apk": "tachiyomi-th.kumomanga-v1.4.1-release.apk",
+    "lang": "th",
+    "code": 1,
+    "version": "1.4.1",
+    "nsfw": 1,
+    "hasReadme": 0,
+    "hasChangelog": 0,
+    "sources": [
+      {
+        "name": "KumoManga",
+        "lang": "th",
+        "id": "67285793621557",
+        "baseUrl": "https://kumomanga.net",
+        "versionId": 1
+      }
+    ]
+  }
+]
