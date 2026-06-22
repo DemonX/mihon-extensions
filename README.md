@@ -2,23 +2,32 @@
 
 Custom Mihon/Tachimanga extension repository for Thai manga.
 
-## Add to Mihon / Tachimanga
+---
 
+## Add to Your App
+
+### Mihon (Android)
 **More → Settings → Browse → Extension repos** → Add:
-
 ```
-https://raw.githubusercontent.com/DemonX/mihon-extensions/main/index.json
+https://raw.githubusercontent.com/DemonX/mihon-extensions/main/index.min.json
 ```
 
-Then go to **Browse → Extensions** and install **KumoManga**.
+### Tachimanga / Aniyomi (iOS)
+**More → Settings → Browse → Extension repos** → Add:
+```
+https://raw.githubusercontent.com/DemonX/mihon-extensions/main/index.min.json
+```
+
+Then go to **Browse → Extensions** and install the extension(s) you want.
 
 ---
 
 ## Extensions
 
-| Name | Language | Version | NSFW |
-|------|----------|---------|------|
-| KumoManga | 🇹🇭 Thai | 1.4.8 | ✅ |
+| Name | Language | Version | NSFW | Site |
+|------|----------|---------|------|------|
+| KumoManga | 🇹🇭 Thai | 1.4.8 | ✅ | [kumomanga.net](https://kumomanga.net) |
+| NanoManga | 🇹🇭 Thai | 1.4.3 | ❌ | [nano-manga.com](https://nano-manga.com) |
 
 ---
 
@@ -40,18 +49,35 @@ Reads manga from [kumomanga.net](https://kumomanga.net/) (Thai WordPress-based m
 ### How chapter pages work
 Chapter images are served through a proxy (`bbb.webtoon168.com`) to bypass CDN restrictions — this is handled automatically by the extension.
 
----
-
-## Changelog
+### Changelog
 
 | Version | Changes |
 |---------|---------|
-| 1.4.8 | Fix manga list page timeout; remove slow per-category thumbnail requests from browse/search |
+| 1.4.8 | Fix manga list page timeout; remove slow per-category thumbnail pre-fetch |
 | 1.4.7 | Per-category thumbnail requests (reverted — caused timeout) |
-| 1.4.6 | Embed covers in browse/search listings via fetchThumbnailMap |
+| 1.4.6 | Embed covers in browse/search listings |
 | 1.4.5 | Fix Observable.zip iOS incompatibility in manga details |
-| 1.4.4 | Fix "No pages found" — regex on raw HTML + noscript bypass; backward-compat URL fix |
+| 1.4.4 | Fix "No pages found" — regex on raw HTML + noscript bypass |
 | 1.4.3 | Fix CDN blocking via bbb.webtoon168.com proxy for chapter pages |
 | 1.4.2 | Fix missing manga title default causing silent serialization error |
 | 1.4.1 | Initial release |
-| NanoManga | 🇹🇭 Thai | 1.4.1 | ❌ |
+
+---
+
+## NanoManga — nano-manga.com
+
+Reads manga from [nano-manga.com](https://nano-manga.com/) (Thai Madara-theme WordPress site).
+
+### Features
+- 📚 Browse popular manga
+- 🕒 Latest updates feed
+- 🔍 Search by title
+- 📖 Chapter reader with page images
+
+### Changelog
+
+| Version | Changes |
+|---------|---------|
+| 1.4.3 | Fix chapter list URL (missing slash before ajax/chapters/) |
+| 1.4.2 | Fix search results using wrong HTML selector |
+| 1.4.1 | Initial release |
