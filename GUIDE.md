@@ -41,7 +41,7 @@ The user installs from GitHub. If changes are not pushed, the user sees no diffe
 | Name | Site | Lang | Version | extVersionCode | NSFW | Source ID |
 |------|------|------|---------|---------------|------|-----------|
 | KumoManga | https://kumomanga.net | th | 1.4.8 | 8 | ✅ | 67285793621557 |
-| NanoManga | https://nano-manga.com | th | 1.4.1 | 1 | ❌ | 7438925132 |
+| NanoManga | https://nano-manga.com | th | 1.4.2 | 2 | ❌ | 7438925132 |
 
 Source files:
 - `/Users/kittiponkanda/Works/Personal/comic/src/th/kumomanga/`
