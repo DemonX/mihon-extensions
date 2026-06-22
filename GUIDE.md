@@ -4,6 +4,20 @@
 
 ---
 
+## ⚠️ Golden Rule
+
+**Every code change — no matter how small — MUST be fully rebuilt and republished before the task is considered done.**
+
+This means after every bug fix or feature change:
+1. Bump `extVersionCode` in `build.gradle`
+2. Build the APK (`./gradlew :src:LANG:EXTNAME:assembleRelease`)
+3. Update `index.json` (apk filename, code, version)
+4. `git push` to GitHub
+
+The user installs from GitHub. If changes are not pushed, the user sees no difference and the fix is wasted.
+
+---
+
 ## Environment Overview
 
 | Resource | Path |
