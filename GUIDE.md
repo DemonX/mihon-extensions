@@ -12,7 +12,8 @@ This means after every bug fix or feature change:
 1. Bump `extVersionCode` in `build.gradle`
 2. Build the APK (`./gradlew :src:LANG:EXTNAME:assembleRelease`)
 3. Update `index.json` (apk filename, code, version)
-4. `git push` to GitHub
+4. Update `README.md` (version in extensions table + add changelog entry)
+5. `git push` to GitHub
 
 The user installs from GitHub. If changes are not pushed, the user sees no difference and the fix is wasted.
 
@@ -42,10 +43,12 @@ The user installs from GitHub. If changes are not pushed, the user sees no diffe
 |------|------|------|---------|---------------|------|-----------|
 | KumoManga | https://kumomanga.net | th | 1.4.8 | 8 | ✅ | 67285793621557 |
 | NanoManga | https://nano-manga.com | th | 1.4.3 | 3 | ❌ | 7438925132 |
+| MangaJapan | https://xn--72cas2cj6a4hf4b5a8oc.com | th | 1.4.1 | 1 | ✅ | 5210794566 |
 
 Source files:
 - `/Users/kittiponkanda/Works/Personal/comic/src/th/kumomanga/`
 - `/Users/kittiponkanda/Works/Personal/comic/src/th/nanomanga/`
+- `/Users/kittiponkanda/Works/Personal/comic/src/th/mangajapan/`
 
 ---
 
@@ -291,7 +294,13 @@ with open("index.json", "w") as f: json.dump(d, f, indent=2)
 with open("index.min.json", "w") as f: json.dump(d, f, separators=(",", ":"))
 EOF
 
-# 4. Commit and push
+# 4. Update README.md (extensions table + add new section with features/changelog)
+python3 - << 'PYEOF'
+# Just a reminder — edit README.md manually or via script
+# Add row to extensions table and append a new ## ExtName section at the bottom
+PYEOF
+
+# 5. Commit and push
 git add .
 git commit -m "Add SiteName extension v1.4.1"
 git push
@@ -327,6 +336,9 @@ entry["version"] = "1.4.NEW"
 with open("index.json", "w") as f: json.dump(d, f, indent=2)
 with open("index.min.json", "w") as f: json.dump(d, f, separators=(",", ":"))
 EOF
+
+# 4. Update README.md — bump version in extensions table + add changelog entry
+#    e.g. change "1.4.8" → "1.4.9" in the table and add "| 1.4.9 | Fix: ..." row
 
 git add . && git commit -m "Fix: description (vNEW)" && git push
 ```
