@@ -28,6 +28,7 @@ Then go to **Browse → Extensions** and install the extension(s) you want.
 |------|----------|---------|------|------|
 | KumoManga | 🇹🇭 Thai | 1.4.8 | ✅ | [kumomanga.net](https://kumomanga.net) |
 | NanoManga | 🇹🇭 Thai | 1.4.3 | ❌ | [nano-manga.com](https://nano-manga.com) |
+| MangaJapan | 🇹🇭 Thai | 1.4.1 | ✅ | [มังงะญี่ปุ่น.com](https://xn--72cas2cj6a4hf4b5a8oc.com) |
 
 ---
 
@@ -80,4 +81,26 @@ Reads manga from [nano-manga.com](https://nano-manga.com/) (Thai Madara-theme Wo
 |---------|---------|
 | 1.4.3 | Fix chapter list URL (missing slash before ajax/chapters/) |
 | 1.4.2 | Fix search results using wrong HTML selector |
+| 1.4.1 | Initial release |
+
+---
+
+## MangaJapan — มังงะญี่ปุ่น.com
+
+Reads manga from [มังงะญี่ปุ่น.com](https://xn--72cas2cj6a4hf4b5a8oc.com/) (Thai WordPress "mangastream" theme site, 18+).
+
+### Features
+- 📚 Browse popular manga
+- 🕒 Latest updates feed
+- 🔍 Search by title
+- 📖 Chapter reader with page images
+
+### Notes
+- Chapter images are loaded from `ts_reader.run(...)` JavaScript — handled automatically.
+- Contains adult/hentai/doujin content (NSFW).
+
+### Changelog
+
+| Version | Changes |
+|---------|---------|
 | 1.4.1 | Initial release |
