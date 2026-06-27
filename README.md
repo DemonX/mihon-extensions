@@ -62,6 +62,7 @@ Chapter images are served through a proxy (`bbb.webtoon168.com`) to bypass CDN r
 | 1.4.4 | Fix "No pages found" — regex on raw HTML + noscript bypass |
 | 1.4.3 | Fix CDN blocking via bbb.webtoon168.com proxy for chapter pages |
 | 1.4.2 | Fix missing manga title default causing silent serialization error |
+| 1.4.2 | Fix search: use /manga/?title=QUERY (returns proper filtered results) |
 | 1.4.1 | Initial release |
 
 ---
