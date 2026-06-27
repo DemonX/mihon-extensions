@@ -60,20 +60,20 @@
     ]
   },
   {
-    "name": "NiceOppai",
+    "name": "NiceOppaiTH",
     "pkg": "eu.kanade.tachiyomi.extension.th.niceoppai",
-    "apk": "tachiyomi-th.niceoppai-v1.4.1-release.apk",
+    "apk": "tachiyomi-th.niceoppai-v1.4.2-release.apk",
     "lang": "th",
-    "code": 1,
-    "version": "1.4.1",
+    "code": 2,
+    "version": "1.4.2",
     "nsfw": 1,
     "hasReadme": 0,
     "hasChangelog": 0,
     "sources": [
       {
-        "name": "NiceOppai",
+        "name": "NiceOppaiTH",
         "lang": "th",
-        "id": "7039904166",
+        "id": "5069382298",
         "baseUrl": "https://www.niceoppai.net",
         "versionId": 1
       }
