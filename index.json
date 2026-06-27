@@ -78,5 +78,25 @@
         "versionId": 1
       }
     ]
+  },
+  {
+    "name": "MangaNeko",
+    "pkg": "eu.kanade.tachiyomi.extension.th.manganeko",
+    "apk": "tachiyomi-th.manganeko-v1.4.1-release.apk",
+    "lang": "th",
+    "code": 1,
+    "version": "1.4.1",
+    "nsfw": 0,
+    "hasReadme": 0,
+    "hasChangelog": 0,
+    "sources": [
+      {
+        "name": "MangaNeko",
+        "lang": "th",
+        "id": "4740274971",
+        "baseUrl": "https://manga-neko.com",
+        "versionId": 1
+      }
+    ]
   }
 ]

@@ -127,3 +127,25 @@ Reads manga from [niceoppai.net](https://www.niceoppai.net/) (Thai custom WordPr
 | 1.4.3 | Fix search: use autocomplete GET API (/wpm-ajx/mng-sch-lst/?q=) — no Cloudflare blocking |
 | 1.4.2 | Rename to NiceOppaiTH to avoid conflicts with other repos |
 | 1.4.1 | Initial release |
+
+---
+
+## MangaNeko — manga-neko.com
+
+Reads manga from [manga-neko.com](https://manga-neko.com/) (Thai manga site using the MangaReader theme).
+
+### Features
+- 📚 Browse popular manga
+- 🕒 Latest updates feed
+- 🔍 Search by title
+- 📖 Chapter reader with page images
+
+### Notes
+- Images are loaded from `ts_reader.run()` JSON data embedded in the chapter page
+- Chapter dates use Thai month names (auto-translated to English for parsing)
+
+### Changelog
+
+| Version | Changes |
+|---------|---------|
+| 1.4.1 | Initial release |
