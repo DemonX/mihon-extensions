@@ -29,6 +29,7 @@ Then go to **Browse → Extensions** and install the extension(s) you want.
 | KumoManga | 🇹🇭 Thai | 1.4.8 | ✅ | [kumomanga.net](https://kumomanga.net) |
 | NanoManga | 🇹🇭 Thai | 1.4.3 | ❌ | [nano-manga.com](https://nano-manga.com) |
 | MangaJapan | 🇹🇭 Thai | 1.4.1 | ✅ | [มังงะญี่ปุ่น.com](https://xn--72cas2cj6a4hf4b5a8oc.com) |
+| NiceOppai | 🇹🇭 Thai | 1.4.1 | ✅ | [niceoppai.net](https://www.niceoppai.net) |
 
 ---
 
@@ -98,6 +99,25 @@ Reads manga from [มังงะญี่ปุ่น.com](https://xn--72cas2cj
 ### Notes
 - Chapter images are loaded from `ts_reader.run(...)` JavaScript — handled automatically.
 - Contains adult/hentai/doujin content (NSFW).
+
+### Changelog
+
+| Version | Changes |
+|---------|---------|
+| 1.4.1 | Initial release |
+
+---
+
+## NiceOppai — niceoppai.net
+
+Reads manga from [niceoppai.net](https://www.niceoppai.net/) (Thai custom WordPress manga site, NSFW).
+
+### Features
+- 📚 Browse popular manga
+- 🕒 Latest updates feed
+- 🔍 Search by title
+- 📖 Chapter reader with page images
+- ⚠️ Contains adult content (NSFW)
 
 ### Changelog
 
