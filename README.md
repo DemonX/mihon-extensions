@@ -29,7 +29,7 @@ Then go to **Browse → Extensions** and install the extension(s) you want.
 | KumoManga | 🇹🇭 Thai | 1.4.8 | ✅ | [kumomanga.net](https://kumomanga.net) |
 | NanoManga | 🇹🇭 Thai | 1.4.3 | ❌ | [nano-manga.com](https://nano-manga.com) |
 | MangaJapan | 🇹🇭 Thai | 1.4.1 | ✅ | [มังงะญี่ปุ่น.com](https://xn--72cas2cj6a4hf4b5a8oc.com) |
-| NiceOppaiTH | 🇹🇭 Thai | 1.4.2 | ✅ | [niceoppai.net](https://www.niceoppai.net) |
+| NiceOppaiTH | 🇹🇭 Thai | 1.4.3 | ✅ | [niceoppai.net](https://www.niceoppai.net) |
 
 ---
 
@@ -123,5 +123,6 @@ Reads manga from [niceoppai.net](https://www.niceoppai.net/) (Thai custom WordPr
 
 | Version | Changes |
 |---------|---------|
+| 1.4.3 | Fix search: use autocomplete GET API (/wpm-ajx/mng-sch-lst/?q=) — no Cloudflare blocking |
 | 1.4.2 | Rename to NiceOppaiTH to avoid conflicts with other repos |
 | 1.4.1 | Initial release |
