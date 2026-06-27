@@ -62,10 +62,10 @@
   {
     "name": "NiceOppaiTH",
     "pkg": "eu.kanade.tachiyomi.extension.th.niceoppai",
-    "apk": "tachiyomi-th.niceoppai-v1.4.3-release.apk",
+    "apk": "tachiyomi-th.niceoppai-v1.4.4-release.apk",
     "lang": "th",
-    "code": 3,
-    "version": "1.4.3",
+    "code": 4,
+    "version": "1.4.4",
     "nsfw": 1,
     "hasReadme": 0,
     "hasChangelog": 0,
