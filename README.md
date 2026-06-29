@@ -26,7 +26,7 @@ Then go to **Browse → Extensions** and install the extension(s) you want.
 
 | Name | Language | Version | NSFW | Site |
 |------|----------|---------|------|------|
-| KumoManga | 🇹🇭 Thai | 1.4.8 | ✅ | [kumomanga.net](https://kumomanga.net) |
+| KumoManga | 🇹🇭 Thai | 1.4.10 | ✅ | [kumomanga.com](https://kumomanga.com) |
 | NanoManga | 🇹🇭 Thai | 1.4.3 | ❌ | [nano-manga.com](https://nano-manga.com) |
 | MangaJapan | 🇹🇭 Thai | 1.4.1 | ✅ | [มังงะญี่ปุ่น.com](https://xn--72cas2cj6a4hf4b5a8oc.com) |
 | NiceOppaiTH | 🇹🇭 Thai | 1.4.4 | ✅ | [niceoppai.net](https://www.niceoppai.net) |
@@ -34,28 +34,21 @@ Then go to **Browse → Extensions** and install the extension(s) you want.
 
 ---
 
-## KumoManga — kumomanga.net
+## KumoManga — kumomanga.com
 
-Reads manga from [kumomanga.net](https://kumomanga.net/) (Thai WordPress-based manga site).
+Reads manga from [kumomanga.com](https://kumomanga.com/) (Thai manga site, rebuilt as Next.js SSR).
 
 ### Features
-- 📚 Browse popular manga (sorted by chapter count)
+- 📚 Browse popular manga
 - 🕒 Latest updates feed
 - 🔍 Search by title
 - 📖 Chapter reader with page images
-
-### Notes on thumbnails
-- **Latest Updates tab** — manga covers load automatically
-- **Popular / Search tab** — covers appear after you open a manga's detail page once; Tachimanga caches them permanently after that
-- **Manga detail page** — cover always loads when you open a manga
-
-### How chapter pages work
-Chapter images are served through a proxy (`bbb.webtoon168.com`) to bypass CDN restrictions — this is handled automatically by the extension.
 
 ### Changelog
 
 | Version | Changes |
 |---------|---------|
+| 1.4.10 | Full rewrite — kumomanga.com relaunched as Next.js site (HTML scraping, new URL structure) |
 | 1.4.8 | Fix manga list page timeout; remove slow per-category thumbnail pre-fetch |
 | 1.4.7 | Per-category thumbnail requests (reverted — caused timeout) |
 | 1.4.6 | Embed covers in browse/search listings |
@@ -63,7 +56,6 @@ Chapter images are served through a proxy (`bbb.webtoon168.com`) to bypass CDN r
 | 1.4.4 | Fix "No pages found" — regex on raw HTML + noscript bypass |
 | 1.4.3 | Fix CDN blocking via bbb.webtoon168.com proxy for chapter pages |
 | 1.4.2 | Fix missing manga title default causing silent serialization error |
-| 1.4.2 | Fix search: use /manga/?title=QUERY (returns proper filtered results) |
 | 1.4.1 | Initial release |
 
 ---
