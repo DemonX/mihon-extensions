@@ -98,5 +98,25 @@
         "versionId": 1
       }
     ]
+  },
+  {
+    "name": "OreManga",
+    "pkg": "eu.kanade.tachiyomi.extension.th.oremanga",
+    "apk": "tachiyomi-th.oremanga-v1.4.1-release.apk",
+    "lang": "th",
+    "code": 1,
+    "version": "1.4.1",
+    "nsfw": 1,
+    "hasReadme": 0,
+    "hasChangelog": 0,
+    "sources": [
+      {
+        "name": "OreManga",
+        "lang": "th",
+        "id": "2081564483403474647",
+        "baseUrl": "https://www.oremanga.net",
+        "versionId": 1
+      }
+    ]
   }
 ]

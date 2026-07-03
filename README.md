@@ -31,6 +31,7 @@ Then go to **Browse → Extensions** and install the extension(s) you want.
 | MangaJapan | 🇹🇭 Thai | 1.4.1 | ✅ | [มังงะญี่ปุ่น.com](https://xn--72cas2cj6a4hf4b5a8oc.com) |
 | NiceOppaiTH | 🇹🇭 Thai | 1.4.4 | ✅ | [niceoppai.net](https://www.niceoppai.net) |
 | MangaNeko | 🇹🇭 Thai | 1.4.2 | ❌ | [manga-neko.com](https://manga-neko.com) |
+| OreManga | 🇹🇭 Thai | 1.4.1 | ✅ | [oremanga.net](https://www.oremanga.net) |
 
 ---
 
@@ -137,6 +138,26 @@ Reads manga from [manga-neko.com](https://manga-neko.com/) (Thai manga site usin
 ### Notes
 - Images are loaded from `ts_reader.run()` JSON data embedded in the chapter page
 - Chapter dates use Thai month names (auto-translated to English for parsing)
+
+### Changelog
+
+| Version | Changes |
+|---------|---------|
+| 1.4.1 | Initial release |
+
+---
+
+## OreManga — oremanga.net
+
+Reads manga from [oremanga.net](https://www.oremanga.net/) (Thai manga site with a large catalog, NSFW).
+
+### Features
+- Browse popular manga
+- Latest updates feed
+- Search by title
+- Advanced search with filters (status, type, order, genre)
+- Chapter reader with page images
+- Thai date parsing (absolute and relative dates)
 
 ### Changelog
 
