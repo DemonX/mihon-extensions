@@ -31,7 +31,7 @@ Then go to **Browse → Extensions** and install the extension(s) you want.
 | MangaJapan | 🇹🇭 Thai | 1.4.1 | ✅ | [มังงะญี่ปุ่น.com](https://xn--72cas2cj6a4hf4b5a8oc.com) |
 | NiceOppaiTH | 🇹🇭 Thai | 1.4.4 | ✅ | [niceoppai.net](https://www.niceoppai.net) |
 | MangaNeko | 🇹🇭 Thai | 1.4.2 | ❌ | [manga-neko.com](https://manga-neko.com) |
-| OreManga | 🇹🇭 Thai | 1.4.2 | ✅ | [oremanga.net](https://www.oremanga.net) |
+| OreManga | 🇹🇭 Thai | 1.4.3 | ✅ | [oremanga.net](https://www.oremanga.net) |
 
 ---
 
@@ -163,5 +163,6 @@ Reads manga from [oremanga.net](https://www.oremanga.net/) (Thai manga site with
 
 | Version | Changes |
 |---------|---------|
+| 1.4.3 | Fix reader: select images from `div.reader-area-main`; collect both plain `<img>` and `<canvas data-url>` elements in DOM order |
 | 1.4.2 | Fix manga listing: correct URL pattern, item selector (`div.flexbox2-item`), field names (`order`/`title`), chapter/detail selectors |
 | 1.4.1 | Initial release |
