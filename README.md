@@ -32,6 +32,7 @@ Then go to **Browse → Extensions** and install the extension(s) you want.
 | NiceOppaiTH | 🇹🇭 Thai | 1.4.4 | ✅ | [niceoppai.net](https://www.niceoppai.net) |
 | MangaNeko | 🇹🇭 Thai | 1.4.2 | ❌ | [manga-neko.com](https://manga-neko.com) |
 | OreManga | 🇹🇭 Thai | 1.4.3 | ✅ | [oremanga.net](https://www.oremanga.net) |
+| DukeToon | 🇹🇭 Thai | 1.4.1 | ✅ | [duketoon.com](https://duketoon.com) |
 
 ---
 
@@ -165,4 +166,22 @@ Reads manga from [oremanga.net](https://www.oremanga.net/) (Thai manga site with
 |---------|---------|
 | 1.4.3 | Fix reader: select images from `div.reader-area-main`; collect both plain `<img>` and `<canvas data-url>` elements in DOM order |
 | 1.4.2 | Fix manga listing: correct URL pattern, item selector (`div.flexbox2-item`), field names (`order`/`title`), chapter/detail selectors |
+| 1.4.1 | Initial release |
+
+---
+
+## DukeToon — duketoon.com
+
+Reads Thai-translated manga/manhwa/manhua from [duketoon.com](https://duketoon.com/) (Next.js RSC-based site).
+
+### Features
+- Browse popular manga
+- Latest updates feed
+- Search by title
+- Chapter reader with page images (CDN: nvme.duketoon.com)
+
+### Changelog
+
+| Version | Changes |
+|---------|---------|
 | 1.4.1 | Initial release |

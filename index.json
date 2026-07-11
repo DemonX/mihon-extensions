@@ -118,5 +118,25 @@
         "versionId": 3
       }
     ]
+  },
+  {
+    "name": "DukeToon",
+    "pkg": "eu.kanade.tachiyomi.extension.th.duketoon",
+    "apk": "tachiyomi-th.duketoon-v1.4.1-release.apk",
+    "lang": "th",
+    "code": 1,
+    "version": "1.4.1",
+    "nsfw": 1,
+    "hasReadme": 0,
+    "hasChangelog": 0,
+    "sources": [
+      {
+        "name": "DukeToon",
+        "lang": "th",
+        "id": "6147475577",
+        "baseUrl": "https://duketoon.com",
+        "versionId": 1
+      }
+    ]
   }
 ]
