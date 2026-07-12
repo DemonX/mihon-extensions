@@ -32,7 +32,7 @@ Then go to **Browse → Extensions** and install the extension(s) you want.
 | NiceOppaiTH | 🇹🇭 Thai | 1.4.4 | ✅ | [niceoppai.net](https://www.niceoppai.net) |
 | MangaNeko | 🇹🇭 Thai | 1.4.2 | ❌ | [manga-neko.com](https://manga-neko.com) |
 | OreManga | 🇹🇭 Thai | 1.4.3 | ✅ | [oremanga.net](https://www.oremanga.net) |
-| DukeToon | 🇹🇭 Thai | 1.4.1 | ✅ | [duketoon.com](https://duketoon.com) |
+| DukeToon | 🇹🇭 Thai | 1.4.2 | ✅ | [duketoon.com](https://duketoon.com) |
 
 ---
 
@@ -184,4 +184,5 @@ Reads Thai-translated manga/manhwa/manhua from [duketoon.com](https://duketoon.c
 
 | Version | Changes |
 |---------|---------|
+| 1.4.2 | Fix pagination: use `/browse/page/N?sort=...` URL pattern |
 | 1.4.1 | Initial release |
