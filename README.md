@@ -29,7 +29,7 @@ Then go to **Browse → Extensions** and install the extension(s) you want.
 | KumoManga | 🇹🇭 Thai | 1.4.10 | ✅ | [kumomanga.com](https://kumomanga.com) |
 | NanoManga | 🇹🇭 Thai | 1.4.3 | ❌ | [nano-manga.com](https://nano-manga.com) |
 | MangaJapan | 🇹🇭 Thai | 1.4.1 | ✅ | [มังงะญี่ปุ่น.com](https://xn--72cas2cj6a4hf4b5a8oc.com) |
-| NiceOppaiTH | 🇹🇭 Thai | 1.4.7 | ✅ | [niceoppai.net](https://www.niceoppai.net) |
+| NiceOppaiTH | 🇹🇭 Thai | 1.4.8 | ✅ | [niceoppai.net](https://www.niceoppai.net) |
 | MangaNeko | 🇹🇭 Thai | 1.4.2 | ❌ | [manga-neko.com](https://manga-neko.com) |
 | OreManga | 🇹🇭 Thai | 1.4.3 | ✅ | [oremanga.net](https://www.oremanga.net) |
 | DukeToon | 🇹🇭 Thai | 1.4.2 | ✅ | [duketoon.com](https://duketoon.com) |
@@ -119,6 +119,7 @@ Reads manga from [niceoppai.net](https://www.niceoppai.net/) (Thai custom WordPr
 
 | Version | Changes |
 |---------|---------|
+| 1.4.8 | Fix malformed image URLs: Kotlin `"\/"` == `"/"` so backslash-strip was a no-op; use `replace("\\", "")` to actually remove backslashes from JSON-escaped `\/` slashes |
 | 1.4.7 | Fix chapter images not loading: wrong `}(` vs `)(` separator in packer decoder + URL regex broken by escaped slashes (`\/`) |
 | 1.4.6 | Fix chapter page loading: site changed to scrambled puzzle image format (NPSGTHI renderer); rewrote packer decoder with robust args extraction and URL unescaping |
 | 1.4.5 | Fix broken browse/details/chapters: site redesigned HTML (fcard layout, series__facts, chlist__rows) |
